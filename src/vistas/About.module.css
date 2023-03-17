@@ -1,0 +1,24 @@
+.contained {
+  justify-content: center;
+  align-items: center;
+  max-width: 960px;
+  max-height: 540px;
+  margin-left: 150px;
+}
+.aboutDiv {
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(7, 1, 54);
+  color: rgb(48, 221, 57);
+  padding: 30px;
+  margin: 10px;
+}
+.aboutDiv h1 {
+  text-align: center;
+}
+.aboutDiv h2 {
+  text-align: center;
+}
+.aboutDiv p {
+  text-align: justify;
+}

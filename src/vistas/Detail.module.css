@@ -1,0 +1,60 @@
+.containAll {
+  justify-content: center;
+  align-items: center;
+  max-width: 1080px;
+  max-height: 720px;
+}
+.detailContainer {
+  background-color: rgb(7, 1, 54);
+  display: block;
+  flex-direction: row;
+  margin: 1em;
+  border-radius: 10px;
+  width: 60%;
+  padding: 25px;
+}
+.image {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border: solid 1px white;
+  width: fit-content;
+  margin-left: 250px;
+}
+.image img {
+  align-self: auto;
+  box-shadow: 4px 4px rgba(52, 240, 5, 0.5);
+}
+.detailContainer button {
+  border-radius: 15px 15px 15px 15px;
+  border: solid rgb(5, 255, 17);
+  background-color: rgb(4, 1, 22);
+  color: rgb(5, 255, 17);
+  font-size: 16px;
+  font-family: "Rockwell";
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 40px;
+}
+.description {
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border: solid 1px white;
+}
+.description h2 {
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Rockwell";
+  color: rgb(13, 212, 7);
+}
+.description p {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Rockwell";
+  color: rgb(48, 231, 41);
+}

@@ -1,0 +1,14 @@
+.navBarLinks h3 {
+  font-size: 24px;
+  font-family: "Eater", cursive;
+  color: rgb(151, 234, 243);
+}
+.navBarLinks {
+  background-color: rgba(78, 103, 102);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 15px 15px 15px 15px;
+  height: fit-content;
+  margin: 10px;
+}

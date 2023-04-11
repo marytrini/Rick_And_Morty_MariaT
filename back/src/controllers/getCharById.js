@@ -1,8 +1,6 @@
 const axios = require("axios");
-//const { KEY, URL } = process.env;
+const { KEY, URL } = process.env;
 
-const URL = "https://be-a-rym.up.railway.app/api";
-const KEY = "09967d0ad6c9.e15ef269aab8887e54a1";
 const getCharById = (req, res) => {
   const { id } = req.params;
 
